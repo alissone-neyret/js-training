@@ -25,7 +25,10 @@ function multiply (number1, number2) {
                 result += number1;
         }
         return result
-        }      
+        } else {
+            result = 0;
+        }  
+        return result;      
     }    
 }
 
