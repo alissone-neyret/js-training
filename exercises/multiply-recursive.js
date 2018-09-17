@@ -18,10 +18,11 @@ function multiply(num1, num2){
     } else if (num2 > 0){
         result = (num1 + multiply(num1, num2 -1));
     } else if (num2 < 0) {
-        result = (num1 - multiply(num1, num2 +1));
+        result = (num1 - multiply(num1, -num2 +1));
     }
     return result
 }
+
 
 //* Begin of tests
 const assert = require('assert')
