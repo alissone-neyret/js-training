@@ -9,6 +9,10 @@
 
 // Your code :
 
+function getLength(test) {
+    return test.length;
+}
+
 //* Begin of tests
 const assert = require('assert')
 
